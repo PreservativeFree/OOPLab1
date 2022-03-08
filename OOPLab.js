@@ -148,19 +148,19 @@ console.log(totalPopulation(largeStates));
 
 //Code Here
 const ingredients = function(obj) {
-  let mainQualities = [];
-  let {propertyOne, propertyTwo, propertyThree} = obj;
-  mainQualities.push(propertyOne);
-  mainQualities.push(propertyTwo);
-  mainQualities.push(propertyThree);
-  return mainQualities;
+  let freshDish = [];
+  let {carb, fat, protein} = obj;
+  freshDish.push(carb);
+  freshDish.push(fat);
+  freshDish.push(protein);
+  return freshDish;
 }
-let foodQualities = {
-  propertyOne: 'carb',
-  propertyTwo: 'fat',
-  propertyThree: 'protein'
+let foodIngredients = {
+  carb: 'pasta',
+  fat: 'cheese',
+  protein: 'meatball'
 }
-console.log(ingredients(foodQualities));
+console.log(ingredients(foodIngredients));
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
